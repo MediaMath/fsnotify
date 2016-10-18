@@ -358,3 +358,5 @@ func TestInotifyInnerMapLength(t *testing.T) {
 		t.Fatalf("Expected paths len is 0, but got: %d, %v", len(w.paths), w.paths)
 	}
 }
+
+//TODO: Test IN_UNMOUNT
